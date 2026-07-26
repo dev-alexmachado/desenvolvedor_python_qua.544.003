@@ -1,3 +1,57 @@
+import os
+
+os.system('cls' if os.name == 'nt' else 'clear')
+
+nome = input("Digite seu nome: ").strip()
+idade = int(input("Digite sua idade: "))
+
+os.system('cls' if os.name == 'nt' else 'clear')
+
+while True:
+    print(f"\n{'-'*20}CINE COBRA{'-'*20}\n")
+    print("Sala 1 - A Volta dos Que Não Foram (livre)")
+    print("Sala 2 - A Roda Quadrada (12 anos)")
+    print("Sala 3 - As Tranças do Rei Careca (14 anos)")
+    print("Sala 4 - Poeira em Alto Mar (16 anos)")
+    print("Sala 5 - A Vingança do Frango Assado (18 anos)")
+
+    sala = input("Escolha a sala do filme desejado (1-5): ").strip()
+
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+    match sala:
+        case "1":
+            idade_minima = 0
+            filme = "A Volta dos Que Não Foram"
+        case "2":
+            idade_minima = 12
+            filme = "A Roda Quadrada"
+        case "3":
+            idade_minima = 14
+            filme = "As Tranças do Rei Careca"
+        case "4":
+            idade_minima = 16
+            filme = "Poeira em Alto Mar"
+        case "5":
+            idade_minima = 18
+            filme = "A Vingança do Frango Assado"
+        case _:
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print("Sala inexistente. Escolha outra sala.")
+            continue
+
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+    if idade < idade_minima:
+        print(f"{nome}, você não tem idade suficiente para assistir '{filme}'.")
+        print("Por favor, escolha outro filme.")
+    else:
+        print("Ingresso comprado com sucesso! Tenha um bom filme!")
+        ingresso = f"🎫 Ingresso comprado para: {nome}\n🎞️ Filme: {filme}\n😎 Tenha um bom filme!"
+        with open("programa_01-02/ingresso.txt", "w", encoding="utf-8") as f:
+            f.write(ingresso)
+        break
+
 # TODO: atividade 02
 """
 Crie um programa que receba uma vez o nome e a idade do usuário, e em seguida mostre os filmes em cartaz em 5 salas de cinema:
