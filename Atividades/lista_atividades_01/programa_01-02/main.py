@@ -1,13 +1,18 @@
+# importa biblioteca
 import os
 
+# limpa tela do terminal
 os.system('cls' if os.name == 'nt' else 'clear')
 
+# entrada de dados
 nome = input("Digite seu nome: ").strip()
 idade = int(input("Digite sua idade: "))
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
+# inicia loop infinito
 while True:
+    # exibe as salas e os filmes
     print(f"\n{'-'*20}CINE COBRA{'-'*20}\n")
     print("Sala 1 - A Volta dos Que Não Foram (livre)")
     print("Sala 2 - A Roda Quadrada (12 anos)")
@@ -15,10 +20,12 @@ while True:
     print("Sala 4 - Poeira em Alto Mar (16 anos)")
     print("Sala 5 - A Vingança do Frango Assado (18 anos)")
 
+    # recebe do usuário a sala desejada
     sala = input("Escolha a sala do filme desejado (1-5): ").strip()
 
     os.system('cls' if os.name == 'nt' else 'clear')
 
+    # verifica a sala informada, atribui a idade mínima e o filme
     match sala:
         case "1":
             idade_minima = 0
@@ -36,20 +43,31 @@ while True:
             idade_minima = 18
             filme = "A Vingança do Frango Assado"
         case _:
+            # caso a sala informada não exista
             os.system('cls' if os.name == 'nt' else 'clear')
             print("Sala inexistente. Escolha outra sala.")
             continue
 
     os.system('cls' if os.name == 'nt' else 'clear')
 
+    # verifica se o usuário tem a idade mínima
     if idade < idade_minima:
+        # proibe a entrada do usuário
         print(f"{nome}, você não tem idade suficiente para assistir '{filme}'.")
         print("Por favor, escolha outro filme.")
+
+        # reinicia o loop
+        continue
     else:
+        # imprime a mensagem de sucesso
         print("Ingresso comprado com sucesso! Tenha um bom filme!")
+
+        # grava o ingresso em arquivo
         ingresso = f"🎫 Ingresso comprado para: {nome}\n🎞️ Filme: {filme}\n😎 Tenha um bom filme!"
         with open("programa_01-02/ingresso.txt", "w", encoding="utf-8") as f:
             f.write(ingresso)
+        
+        # encerra o loop
         break
 
 # TODO: atividade 02
