@@ -1,17 +1,23 @@
+# importa biblioteca os
 import os
 
+# limpa tela do terminal
 os.system("cls" if os.name == "nt" else "clear")
 
+# entrada de dados
 nome = input("Digite seu nome: ").strip()
 peso = float(input("Digite seu peso (em kg): ").replace(",", "."))
 altura = float(input("Digite sua altura (em metros): ").replace(",", "."))
 
+# calcula o IMC
 imc = peso/(altura**2)
 
 os.system("cls" if os.name == "nt" else "clear")
 
+# informa o IMC na tela
 print(f"Olá {nome}, seu IMC é: {imc:.2f}")
 
+# verifica o valor do IMC e informa o diagnóstico
 if imc < 18.5:
     print("Você está abaixo do peso.")
 elif imc < 25:
