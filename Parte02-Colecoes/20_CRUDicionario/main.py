@@ -38,8 +38,12 @@ while True:
             continue
         case "3":
             nome = input("Informe o nome a ser pesquisado: ").strip().title()
+            encontrado = False
+
             for usuario in usuarios:
-                if nome in usuario['nome']:
+                partes_nome = [parte.lower() for parte in usuario['nome'].split()]
+                if nome.lower() in partes_nome:
+                    encontrado = True
                     # 2º menu
                     print("nome")
                     print("cpf")
@@ -49,19 +53,25 @@ while True:
                     if alterar in usuario:
                         usuario[alterar] = input("Informe o novo valor: ").strip()
                         print("Alterado com sucesso.")
-                else:
-                    # REVIEW: mensagem bugada
-                    print("Usuário não encontrado.")
+                    break
+
+            if not encontrado:
+                print("Usuário não encontrado.")
             continue
         case "4":
             nome = input("Informe o nome a ser deletado: ").strip().title()
+            encontrado = False
+
             for usuario in usuarios:
-                if nome in usuario['nome']:
+                partes_nome = [parte.lower() for parte in usuario['nome'].split()]
+                if nome.lower() in partes_nome:
                     usuarios.remove(usuario)
                     print("Usuário deletado com sucesso!")
-                else:
-                    # REVIEW: mensagem bugada
-                    print("Usuário não encontrado.")
+                    encontrado = True
+                    break
+
+            if not encontrado:
+                print("Usuário não encontrado.")
             continue
         case "5":
             break
