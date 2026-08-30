@@ -10,10 +10,18 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/20%2F10%2F2026-700?style=plastic&label=T%C3%A9rmino&labelColor=16161d">
 </a>
 
-## Versão do Python utilizada no curso
+## Versão
+
+### Versão do repositório
 
 <a href="https://shields.io/badges">
-    <img alt="Static Badge" src="https://img.shields.io/badge/3.14.4-FFD43B?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o&labelColor=306998">
+    <img alt="Static Badge" src="https://img.shields.io/badge/4.14.0.1-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
+</a>
+
+### Python
+
+<a href="https://shields.io/badges">
+    <img alt="Static Badge" src="https://img.shields.io/badge/3.14.4-FFD43B?style=plastic&logo=python&logoColor=fff&label=Python&labelColor=306998">
 </a>
 
 ## Partes do curso
