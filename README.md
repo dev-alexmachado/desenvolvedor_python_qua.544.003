@@ -60,7 +60,7 @@ classDiagram
     }
 
     class Conta {
-        -String titular
+        -Pessoa titular
         -String agencia
         -String n_conta
         -float saldo
