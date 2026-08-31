@@ -37,7 +37,9 @@
     <br>
     <img alt="Static Badge" src="https://img.shields.io/badge/Bibliotecas%20externas-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2005&labelColor=16161d">
     <br>
-    <img alt="Static Badge" src="https://img.shields.io/badge/Flask-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2006&labelColor=16161d">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Notebooks-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2006&labelColor=16161d">
     <br>
-    <img alt="Static Badge" src="https://img.shields.io/badge/Django-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2007&labelColor=16161d">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Flask-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2007&labelColor=16161d">
+    <br>
+    <img alt="Static Badge" src="https://img.shields.io/badge/Django-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2008&labelColor=16161d">
 </a>
