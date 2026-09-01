@@ -15,7 +15,7 @@
 ### Versão do repositório
 
 <a href="https://shields.io/badges">
-    <img alt="Static Badge" src="https://img.shields.io/badge/4.14.1-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
+    <img alt="Static Badge" src="https://img.shields.io/badge/5.0-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
 </a>
 
 ### Python
@@ -33,9 +33,9 @@
     <br>
     <img alt="Static Badge" src="https://img.shields.io/badge/Fun%C3%A7%C3%B5es-333?style=plastic&logo=python&logoColor=fff&label=Parte%2003&labelColor=16161d">
     <br>
-    <img alt="Static Badge" src="https://img.shields.io/badge/Orienta%C3%A7%C3%A3o%20a%20Objetos-070?style=plastic&logo=python&logoColor=fff&label=Parte%2004&labelColor=16161d">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Orienta%C3%A7%C3%A3o%20a%20Objetos-333?style=plastic&logo=python&logoColor=fff&label=Parte%2004&labelColor=16161d">
     <br>
-    <img alt="Static Badge" src="https://img.shields.io/badge/Bibliotecas%20externas-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2005&labelColor=16161d">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Bibliotecas%20externas-070?style=plastic&logo=python&logoColor=fff&label=Parte%2005&labelColor=16161d">
     <br>
     <img alt="Static Badge" src="https://img.shields.io/badge/Notebooks-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2006&labelColor=16161d">
     <br>
