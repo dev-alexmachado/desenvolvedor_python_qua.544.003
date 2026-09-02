@@ -15,7 +15,7 @@
 ### Versão do repositório
 
 <a href="https://shields.io/badges">
-    <img alt="Static Badge" src="https://img.shields.io/badge/5.0-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
+    <img alt="Static Badge" src="https://img.shields.io/badge/5.2-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
 </a>
 
 ### Python
@@ -43,38 +43,3 @@
     <br>
     <img alt="Static Badge" src="https://img.shields.io/badge/Django-fff?style=plastic&logo=python&logoColor=fff&label=Parte%2008&labelColor=16161d">
 </a>
-
-## Atividade ativa
-
-### Atividade 06
-
-Crie um programa a partir do diagrama de classes abaixo:
-~~~mermaid
-classDiagram
-    class IConta {
-        <<interface>>
-        +consultar_dados() void
-        +gerar_extrato() void
-        +depositar(float valor) float
-        +sacar(float valor) float
-    }
-
-    class Conta {
-        -Pessoa titular
-        -String agencia
-        -String n_conta
-        -float saldo
-    }
-
-    class Pessoa {
-        -String nome
-        -String cpf
-        +__str__() String
-    }
-
-    IConta <|.. Conta
-    Conta --> Pessoa : possui
-~~~
-
-> [!NOTE]
-> O método `gerar_extrato()` deve criar um arquivo `.txt` que será o extrato.
