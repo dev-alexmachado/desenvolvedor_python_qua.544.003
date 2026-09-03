@@ -15,10 +15,11 @@ def main():
     auto.press("enter")
     auto.write("git add .")
     auto.press("enter")
-    auto.write(f'git commit -m "{hoje()}"')
+    auto.write(f'git commit -m "Aula do dia {hoje()}"')
     auto.press("enter")
     auto.write("git push")
     auto.press("enter")
+    auto.write("exit")
 
 
 if __name__ == "__main__":
