@@ -15,7 +15,7 @@
 ### Versão do repositório
 
 <a href="https://shields.io/badges">
-    <img alt="Static Badge" src="https://img.shields.io/badge/5.2-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
+    <img alt="Static Badge" src="https://img.shields.io/badge/6.1-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
 </a>
 
 ### Python
