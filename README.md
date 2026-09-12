@@ -15,14 +15,15 @@
 ### Versão do repositório
 
 <a href="https://shields.io/badges">
-    <img alt="Static Badge" src="https://img.shields.io/badge/7.1-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
+    <img alt="Static Badge" src="https://img.shields.io/badge/7.2-16161d?style=plastic&logo=python&logoColor=fff&label=Vers%C3%A3o">
 </a>
 
-### Python
+### Programação
 
 <a href="https://shields.io/badges">
     <img alt="Static Badge" src="https://img.shields.io/badge/3.14.5-FFD43B?style=plastic&logo=python&logoColor=fff&label=Python&labelColor=306998">
 </a>
+<img alt="Static Badge" src="https://img.shields.io/badge/3.1.3-000?style=plastic&logo=flask&logoColor=fff&label=Flask&labelColor=44abbf">
 
 ## Partes do curso
 
