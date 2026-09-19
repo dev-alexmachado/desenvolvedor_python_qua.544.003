@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center align-items-center min-vh-content">
+            <div class="col-md-8">
+                <div class="card p-4 shadow-lg">
+                    <h2 class="card-title text-center mb-4">
+                        Edição de texto extraído
+                    </h2>
+                    <form action="" method="POST">
+                        <div class="mb-3">
+                            <label for="texto" class="form-label">
+                                Texto extraído:
+                            </label>
+                            <textarea class="form-control" name="texto" rows="10" required>
+                                {{ texto or '' }}
+                            </textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
