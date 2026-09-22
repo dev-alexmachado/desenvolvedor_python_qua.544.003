@@ -7,7 +7,7 @@
                     <h2 class="card-title text-center mb-4">
                         Edição de texto extraído
                     </h2>
-                    <form action="" method="POST">
+                    <form action="/exportarTexto" method="POST">
                         <div class="mb-3">
                             <label for="texto" class="form-label">
                                 Texto extraído:
@@ -15,6 +15,14 @@
                             <textarea class="form-control" name="texto" rows="10" required>
                                 {{ texto or '' }}
                             </textarea>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <a href="/" class="btn btn-primary">
+                                Voltar
+                            </a>
+                            <button type="submit" class="btn btn-success ms-3">
+                                Exportar texto
+                            </button>
                         </div>
                     </form>
                 </div>
